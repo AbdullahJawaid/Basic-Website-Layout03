@@ -1,0 +1,143 @@
+    @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Yeseva One', cursive;
+
+    }
+    .header{
+        width: 100%;
+        height: 100vh;
+        background:  linear-gradient(rgb(9 8 8 / 63%),rgb(15 14 14 / 59%)),url('bg.jpg') no-repeat fixed center;
+        background-size: cover;
+        padding: 0 8%;
+        position: relative;
+    
+    }
+
+    .sidebar{
+        position: absolute;
+        top:0;
+        right: 0;
+        width: 5vw;
+        height: 100vh;
+        background:rgba(0, 0, 0, 0.623);
+        text-align: center;
+
+    }
+    .sidebar img{
+        width: 1.8vw;
+        display: block;
+        margin: 2rem auto 5rem;
+        cursor: pointer;
+    }
+    .social-media{
+        width: 100%;
+        height: 50%;
+        background: rgba(133, 86, 86, 0.356);
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding-bottom: 1rem;
+        padding-top: 10rem   ;
+        
+    }
+    .social-media img{
+
+        width: 2rem;
+        margin: 1rem;
+
+    }
+    .container{
+        background:rgba(231, 231, 238, 0.068);
+        width: 55%;
+        height: 100vh;
+        position: relative;
+        margin-left: -6.5rem ;
+    }
+    .container .nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .logo{
+        width: 5vw;
+        cursor: pointer;
+        margin-left: 1rem;
+    }
+    .shop-icon{
+        width: 1.7vw;
+        margin: 3rem 30rem;
+        cursor: pointer;
+
+    }
+    .play-icon{
+        position: absolute;
+        top: 50%;
+        right:0;
+        transform: translate(50%,-50%);
+        width: 5rem;
+        cursor: pointer;
+        
+    }
+    .info{
+        padding: 2rem 15%;
+        color: whitesmoke;
+    }
+    .info .h1-primary{
+        font-size: 5rem;
+        font-weight: normal;
+        margin-bottom: 2rem;
+    }
+    .info .h3-primary{
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+        font-weight: normal;
+    }
+    .info .p-primary{
+        color: rgba(206, 203, 203, 0.562);
+        font-family: sans-serif;
+        font-size: 1rem;
+        line-height: 1rem;
+
+
+    }
+    .row{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 2rem 0;
+    }
+    .indicator{
+        width:20vw ;
+        margin: 5rem rem;
+    }
+    .row .line{
+        background: rgb(158, 156, 156);
+        height: 4px;
+        width: 80%;
+        border-radius: 2px;
+
+    }
+    .row .line span{
+        background: #0a0a0a;
+        height: 100%;
+        width: 50%;
+        display: block;
+
+    }
+    .row .h2-primary{
+        font-family: sans-serif;
+        font-weight: normal;
+        font-size: 1.5rem;
+        margin-bottom: 0.7rem;
+        padding: 0 auto;
+    }
+
+
+
